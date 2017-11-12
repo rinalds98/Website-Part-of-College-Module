@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+    font-family: Helvetica, Garamond, sans-serif;
+}
+
+.container {
+    background-size: 900px;
+}
+.Recipetitle{
+    text-align: center;
+}
+.title {
+    display: block;
+    color: black;
+    /* background-image: "PLACE IMAGE NAME HERE";*/
+    background-color: #C2FFFF;
+    background-position: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.intro p{
+    text-align: center;
+    border-left: 3px solid #333;
+    border-right: 3px solid #333;
+    background-color: #C5EAB2;
+
+}
+
+
+.ingredients{
+    float: right;
+    clear: left;
+    text-align: center;
+    padding: 50px;
+	list-style-type: none;
+    line-height: 2;
+    background-color: #E1FFFF;
+}
+
+.ingredients ul{
+    list-style-type: none;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.steps {
+    padding:20px;
+    overflow: auto;
+    background-color: #E1FFFF;
+}	
+
+.info {
+    padding: 50px;
+    margin: 15px;
+    float: right;
+    background-color: #E1FFFF;
+}
+.info h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.info p{
+	font-weight: bold;
+	color: black;
+}
+
+.info ul li{
+    list-style-type: none;
+}
+
+.image img {
+    width: 40%;
+    float: left;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.nav ul a:hover{
+    color: grey;
+}
+
+.content{
+    text-align: center;
+    background-color:#E1FFFF;
+
+}
+
+.row h2{
+    text-align: center;
+    padding: 5px 60px 5px 60px;
+    margin-right: 5px;
+}
+
+
+
+
+footer{
+
+    overflow: auto;
+    background-color:#292c2f;
+    box-sizing:border-box;width:100%;
+    text-align:left;
+    font:700 16px sans-serif;
+    bottom:0;
+    color:#fff
+}
+
+.footer-contacts ul{
+    display:inline-block;
+    color:#fff;
+    list-style: none;
+    vertical-align:middle;
+    font-size: 13px;
+}
+
+.footer-contacts h4{
+    text-align: center;
+}
+.footer-contacts h5{
+    text-align: center;
+    font-size: 13px;
+}
+.footer-contacts h6{
+    text-align: center;
+    font-size: 10px;
+}
